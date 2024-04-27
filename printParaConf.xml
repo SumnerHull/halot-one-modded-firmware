@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <getPrintPara> 
+    <InitExposure value="40"/>
+    <PrintExposure value="30"/>
+    <PrintHeight value="8"/>
+    <EleSpeed value="3"/>
+    <LevelHeight value="236"/>
+    <DelayLight value="4"/>
+    <ExposureLayersNum value="1"/>
+  </getPrintPara>
+</root>

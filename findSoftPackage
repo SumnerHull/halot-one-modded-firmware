@@ -1,0 +1,74 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+
+START=50
+USE_PROCD=1
+STOP=01
+
+uPath="/mnt/exUDISK/"
+installPath="/usr/bin/share/"
+
+start_service() {
+
+	if [ ! -d ${installPath} ]; then
+	    mkdir ${installPath}
+	fi
+	while (true)
+	do
+	   if [ -d $uPath ]; then
+        	packagePath=`find ${uPath} -iname *.ipkf`
+	        if [ -z ${packagePath} ]; then
+        	    echo "package path is null"
+	        else
+	            echo "package path is ${packagePath}"
+        	    mv ${packagePath} ${installPath}
+	            cd ${installPath}
+	            realPackagePath=`find -iname *.ipkf`
+        	    realPath=${realPackagePath%%f*}
+	            echo ${realPath}
+        	    mv ${realPackagePath} ${realPath}
+	            chmod +x ${realPath}
+        	    opkg --nodeps install ${realPath}          
+	            rm ${realPath}
+        	    reboot
+	        fi
+	    fi
+	    sleep 10
+	done
+}
+
+reload_service() {
+
+	if [ ! -d ${installPath} ]; then
+	    mkdir ${installPath}
+	fi
+	while (true)
+	do
+	    if [ -d $uPath ]; then
+	        packagePath=`find ${uPath} -iname *.ipkf`
+        	if [ -z ${packagePath} ]; then
+	            echo "package path is null"
+	        else
+        	    echo "package path is ${packagePath}"
+	            mv ${packagePath} ${installPath}
+	            cd ${installPath}
+        	    realPackagePath=`find -iname *.ipkf`
+	            realPath=${realPackagePath%%f*}
+        	    echo ${realPath}
+	            mv ${realPackagePath} ${realPath}
+	            chmod +x ${realPath}
+        	    opkg --nodeps install ${realPath}
+	            rm ${realPath}
+        	    reboot
+	        fi
+	    fi
+	    sleep 10
+	done
+}
+
+
+
+
+
+
+

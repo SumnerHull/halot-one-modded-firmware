@@ -1,0 +1,1578 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+ <ConfigFileAttributes configVersion="V1.3"/>
+ <HalotMachine          value="TEST">
+  <!-- 机型名 -->
+  <PrinterStyle         value="LCD"/>
+  <!-- 打印机类型 -->
+  <SendImageType        value="DLP"/>
+  <!-- 送图类型 -->
+  <MirroredX            value="false"/>
+  <!-- X轴镜像 -->
+  <AutoFeedAndPreHeat   value="false"/>
+  <!-- 自动加料加热界面 -->
+  <SerialName           value="ttyS3"/>
+  <!-- 串口号 -->
+  <SendSerialModelType  value="B"/>
+  <!-- 单片机类型 -->
+  <RotateAngle          value="90"/>
+  <!-- 旋转角度 -->
+  <LevelHeight          value="236"/>
+  <!-- 调平高度 -->
+  <IsHorizontal         value="false"/>
+  <!-- 是否横屏 -->
+  <ExternalName         value="HALOT-SKY"/>
+  <!-- 对外机型 -->
+  <RgbRange             value="BGRA"/>
+  <!-- RGB排列方式 值有RGBA，BGRA和GRAY8-->
+  <HelicalPitch         value="4"/>
+  <!-- 导程 -->
+  <ExternalMotor        value="true"/>
+  <!-- 是否外挂电机 -->
+  <MinMotorSpeed        value="1"/>
+  <!-- 最小电机速度 -->
+  <MaxMotorSpeed        value="8"/>
+  <!-- 最大电机速度 -->
+  <EleSpeed             value="5"/>
+  <!-- 电机速度 -->
+  <MinRiseHeight        value="5"/>
+  <!-- 最小抬升高度 -->
+  <MaxRiseHeight        value="15"/>
+  <!-- 最大抬升高度 -->
+  <PrintHeight          value="8"/>
+  <!-- 打印抬升高度 -->
+  <MinInitExposure      value="10"/>
+  <!-- 最小底层曝光时长 -->
+  <MaxInitExposure      value="70"/>
+  <!-- 最大底层曝光时长 -->
+  <InitExposure         value="40"/>
+  <!-- 底层曝光时长 -->
+  <MinPrintExposure     value="10"/>
+  <!-- 最小打印曝光时长 -->
+  <MaxPrintExposure     value="100"/>
+  <!-- 最大打印曝光时长 -->
+  <PrintExposure        value="30"/>
+  <!-- 打印曝光时长 -->
+  <MinDelayLight        value="1"/>
+  <!-- 最小灭灯延时 -->
+  <MaxDelayLight        value="10"/>
+  <!-- 最大灭灯延时 -->
+  <DelayLight           value="4"/>
+  <!-- 灭灯延时 -->
+  <MinExposureLayersNum value="1"/>
+  <!-- 最小底层曝光层数 -->
+  <MaxExposureLayersNum value="10"/>
+  <!-- 最大底层曝光层数 -->
+  <ExposureLayersNum    value="2"/>
+  <!-- 底层曝光层数 -->
+  <pixelX               value="0.05"/>
+  <!-- X方向像素宽度 -->
+  <pixelY               value="0.05"/>
+  <!-- Y方向像素宽度 -->
+  <imageScale           value="true">
+      <!-- 图像缩放 -->
+      <xScale           value="9900"/>
+      <!-- 图像X轴缩放 -->
+      <yScale           value="10100"/>
+      <!-- 图像Y轴缩放 -->
+  </imageScale>
+  <OriginalResolution>
+   <!-- 原始分辨率 -->
+   <OriginalResolutionX value="3840"/>
+   <!-- 原始分辨率X轴 -->
+   <OriginalResolutionY value="2400"/>
+   <!-- 原始分辨率Y轴 -->
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <!-- 是否压缩 -->
+   <CompressResolutionX value="1280"/>
+   <!-- 压缩后分辨率X轴 -->
+   <CompressResolutionY value="2400"/>
+   <!-- 压缩后分辨率Y轴 -->
+  </IsCompress>
+    <!-- 蒙版校正的参数 -->
+  <mengToolParaAttributes needcheck="true" devName="89"  screenBrighMin="3600" screenBrighMax="5000" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL89">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="236"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="HALOT-SKY"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2400"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1280"/>
+   <CompressResolutionY value="2400"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="89"  screenBrighMin="3600" screenBrighMax="5000" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL60">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="E"/>
+  <LevelHeight          value="170"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-ONE"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="1620"/>
+   <OriginalResolutionY value="2560"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="540"/>
+   <CompressResolutionY value="2560"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="60"  screenBrighMin="3000" screenBrighMax="4000" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL89D">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="136"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="DJ89"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>  
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2400"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1280"/>
+   <CompressResolutionY value="2400"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="89"  screenBrighMin="3600" screenBrighMax="5000" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL89L">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="E"/>
+  <LevelHeight          value="236"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-LITE"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>   
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>  
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2400"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1280"/>
+   <CompressResolutionY value="2400"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="89"  screenBrighMin="3000" screenBrighMax="4500" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL133">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="320"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-MAX"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="50"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>  
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0765"/>
+  <pixelY               value="0.0765"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2160"/>
+  </OriginalResolution>
+  <IsCompress           value="false"/>
+  <mengToolParaAttributes needcheck="true" devName="133"  screenBrighMin="3400" screenBrighMax="3800" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL130">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="320"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-MAX_A"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="50"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5760"/>
+   <OriginalResolutionY value="3240"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1920"/>
+   <CompressResolutionY value="3240"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="130"  screenBrighMin="3400" screenBrighMax="3800" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL133A">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="325"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D133"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0765"/>
+  <pixelY               value="0.0765"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2160"/>
+  </OriginalResolution>
+  <IsCompress           value="false"/>
+  <mengToolParaAttributes needcheck="true" devName="133"  screenBrighMin="3400" screenBrighMax="3800" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL128">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="134"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D128"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.051"/>
+  <pixelY               value="0.051"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5448"/>
+   <OriginalResolutionY value="3064"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1816"/>
+   <CompressResolutionY value="3064"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="128"  screenBrighMin="3500" screenBrighMax="4500" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL128C">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="320"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="CL128C"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.051"/>
+  <pixelY               value="0.051"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5448"/>
+   <OriginalResolutionY value="3064"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1816"/>
+   <CompressResolutionY value="3064"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="128"  screenBrighMin="3500" screenBrighMax="4500" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CT005">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="286"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="CT-005 PRO"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>  
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2400"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1280"/>
+   <CompressResolutionY value="2400"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="89"  screenBrighMin="3800" screenBrighMax="4500" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL70">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="E"/>
+  <RotateAngle          value="90"/>  
+  <LevelHeight          value="175"/>  
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-ONE PRO"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>  
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/> 
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="20"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.051"/>
+  <pixelY               value="0.051"/>
+  <imageScale           value="false"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="2400"/>
+   <OriginalResolutionY value="2560"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="800"/>
+   <CompressResolutionY value="2560"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="70"  screenBrighMin="5000" screenBrighMax="7000" nMaskMax="65"/>
+ </HalotMachine>
+ <HalotMachine          value="CL60RS">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="170"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-ONE_A"/>
+  <RgbRange             value="RGBA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.051"/>
+  <pixelY               value="0.051"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="1620"/>
+   <OriginalResolutionY value="2560"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="540"/>
+   <CompressResolutionY value="2560"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="60"  screenBrighMin="3200" screenBrighMax="6000" nMaskMax="60"/>
+ </HalotMachine>
+ <HalotMachine          value="CL89RA">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="236"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="HALOT-SKY"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2400"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1280"/>
+   <CompressResolutionY value="2400"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="89"  screenBrighMin="3600" screenBrighMax="5000" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL62">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="170"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-ONE_B"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.035"/>
+  <pixelY               value="0.035"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2400"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1280"/>
+   <CompressResolutionY value="2400"/>
+  </IsCompress>
+ </HalotMachine>
+ <HalotMachine          value="CL76">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="245"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="CL76"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.037958333"/>
+  <pixelY               value="0.04"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="4320"/>
+   <OriginalResolutionY value="2560"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1440"/>
+   <CompressResolutionY value="2560"/>
+  </IsCompress>
+ </HalotMachine>
+ <HalotMachine          value="CL79">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="E"/>
+  <LevelHeight          value="176"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-ONE PLUS"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/> 
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.04"/>
+  <pixelY               value="0.04"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="4320"/>
+   <OriginalResolutionY value="2560"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1440"/>
+   <CompressResolutionY value="2560"/>
+  </IsCompress>
+   <mengToolParaAttributes needcheck="true" devName="79"  screenBrighMin="3800" screenBrighMax="5500" nMaskMax="65"/>
+ </HalotMachine>
+ <HalotMachine          value="CL79D">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="176"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="DJ79"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.04"/>
+  <pixelY               value="0.04"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="4320"/>
+   <OriginalResolutionY value="2560"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1440"/>
+   <CompressResolutionY value="2560"/>
+  </IsCompress>
+   <mengToolParaAttributes needcheck="true" devName="79"  screenBrighMin="3800" screenBrighMax="5500" nMaskMax="65"/>
+ </HalotMachine>
+ <HalotMachine          value="L79">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="176"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-L79"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.04"/>
+  <pixelY               value="0.04"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="4320"/>
+   <OriginalResolutionY value="2560"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1440"/>
+   <CompressResolutionY value="2560"/>
+  </IsCompress>
+   <mengToolParaAttributes needcheck="true" devName="79"  screenBrighMin="3800" screenBrighMax="5500" nMaskMax="65"/>
+ </HalotMachine>
+ <HalotMachine          value="CL92">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="259"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="CL92R"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0344"/>
+  <pixelY               value="0.0344"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5760"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1920"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+   <mengToolParaAttributes needcheck="true" devName="92"  screenBrighMin="3200" screenBrighMax="6000" nMaskMax="80"/>
+ </HalotMachine>
+ <HalotMachine          value="CL925">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="258"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-RAY"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="2"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0344"/>
+  <pixelY               value="0.0344"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5760"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1920"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+   <mengToolParaAttributes needcheck="true" devName="92"  screenBrighMin="4800" screenBrighMax="6000" nMaskMax="80"/>
+ </HalotMachine>
+ <HalotMachine          value="CT133PRO">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="320"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="CT-133 PRO"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="50"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0765"/>
+  <pixelY               value="0.0765"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2160"/>
+  </OriginalResolution>
+  <IsCompress           value="false"/>
+   <mengToolParaAttributes needcheck="true" devName="133"  screenBrighMin="3400" screenBrighMax="3800" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CD145U">
+  <PrinterStyle         value="DLP"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="100"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="CD145U"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="1"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2160"/>
+  </OriginalResolution>
+  <IsCompress           value="false"/>
+ </HalotMachine>
+ <HalotMachine          value="CD75A">
+  <PrinterStyle         value="DLP"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="false"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="C"/>
+  <LevelHeight          value="136"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D150"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="5"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.075"/>
+  <pixelY               value="0.075"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="1920"/>
+   <OriginalResolutionY value="1080"/>
+  </OriginalResolution>
+  <islightIntensity value ="true">
+    <defaultLightValue value="384"/>
+    <maxCurrent value="1023"/>
+    <minCurrent value="91"/>
+    <maxLight value="10000"/>
+    <minLight value="0"/>
+  </islightIntensity>
+  <IsCompress           value="false"/>
+  <haveImageScalRatio value="true" printScalRatioX="100.0" printScalRatioY="100.0"/>
+  <mengToolParaAttributes devName="150" strCalModels="CMD" screenBrighMin="1000" screenBrighMax="12000" 
+  nMaskMax="40" needcheck="true" mirrored="" iThreshold="75" fLightPerGray="90.0" nBrightTargetIni="10000" 
+  fPhysicalX="144" fPhysicalY="81" fMotorSpeed="45" fLeadDistance="40" iDataMultiples="1000"
+  fStartPosX="24" fStartPosY="27.5" fMarginsX="7.6" fMarginsY="7.5" iPointCountX="17" iPointCountY="10"/> 
+ </HalotMachine>
+ <HalotMachine          value="CD86">
+  <PrinterStyle         value="DLP"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="false"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="D"/>
+  <LevelHeight          value="132"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D190"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2160"/>
+  </OriginalResolution>
+  <islightIntensity value ="true">
+    <defaultLightValue value="80"/>
+    <maxCurrent value="128"/>
+    <minCurrent value="0"/>
+    <maxLight value="6000"/>
+    <minLight value="0"/>
+  </islightIntensity>
+  <IsCompress           value="false"/>
+  <mengToolParaAttributes devName="192" strCalModels="CMD" screenBrighMin="1000" screenBrighMax="10000" 
+  nMaskMax="50" needcheck="true" mirrored="" iThreshold="35" fLightPerGray="30.0" nBrightTargetIni="6000" 
+  fPhysicalX="192" fPhysicalY="108" fMotorSpeed="45" fLeadDistance="40" iDataMultiples="1000"
+  fStartPosX="0.5" fStartPosY="14.9" fMarginsX="7.6" fMarginsY="7.6" iPointCountX="22" iPointCountY="12"/> 
+
+  <haveImageScalRatio value="true" printScalRatioX="100.0" printScalRatioY="100.0"/>
+ </HalotMachine>
+ <HalotMachine          value="CD60">
+  <PrinterStyle         value="DLP"/>
+  <SendImageType        value="DLP"/>
+  <MirroredX            value="false"/>
+  <AutoFeedAndPreHeat   value="true"/>
+  <SerialName           value="ttyS3"/>
+  <SendSerialModelType  value="B"/>
+  <LevelHeight          value="135"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D158"/>
+  <RgbRange             value="GRAY8"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="10"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.061875"/>
+  <pixelY               value="0.061875"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="2560"/>
+   <OriginalResolutionY value="1440"/>
+  </OriginalResolution>
+  <islightIntensity value ="true">
+    <defaultLightValue value="80"/>
+    <maxCurrent value="620"/>
+    <minCurrent value="0"/>
+    <maxLight value="5000"/>
+    <minLight value="0"/>
+  </islightIntensity>
+  <IsCompress           value="false"/>
+  <mengToolParaAttributes devName="158" strCalModels="CMD" screenBrighMin="3000" screenBrighMax="8000" 
+  nMaskMax="80" needcheck="true" mirrored="" iThreshold="23" fLightPerGray="19" nBrightTargetIni="4000" 
+  fPhysicalX="158.72" fPhysicalY="89.28" fMotorSpeed="45" fLeadDistance="40" iDataMultiples="1"
+  fStartPosX="5" fStartPosY="15.5" fMarginsX="8.2" fMarginsY="8.2" iPointCountX="10" iPointCountY="17" />
+  <haveImageScalRatio value="true" printScalRatioX="100.0" printScalRatioY="100.0"/>
+ </HalotMachine>
+  <HalotMachine         value="D160">
+  <PrinterStyle         value="DLP"/>
+  <SendImageType        value="DLP"/>
+  <MirroredX            value="false"/>
+  <AutoFeedAndPreHeat   value="true"/>
+  <SerialName           value="ttyS3"/>
+  <SendSerialModelType  value="B"/>
+  <LevelHeight          value="135"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D160"/>
+  <RgbRange             value="GRAY8"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="10"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="10"/>
+  <PrintHeight          value="6"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.061875"/>
+  <pixelY               value="0.061875"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="2560"/>
+   <OriginalResolutionY value="1440"/>
+  </OriginalResolution>
+  <islightIntensity value ="true">
+    <defaultLightValue value="80"/>
+    <maxCurrent value="620"/>
+    <minCurrent value="0"/>
+    <maxLight value="5000"/>
+    <minLight value="0"/>
+  </islightIntensity>
+  <IsCompress           value="false"/>
+  <mengToolParaAttributes devName="158" strCalModels="CMD" screenBrighMin="3000" screenBrighMax="8000" 
+  nMaskMax="80" needcheck="true" mirrored="" iThreshold="23" fLightPerGray="19" nBrightTargetIni="4000" 
+  fPhysicalX="158.72" fPhysicalY="89.28" fMotorSpeed="45" fLeadDistance="40" iDataMultiples="1"
+  fStartPosX="5" fStartPosY="15.5" fMarginsX="8.2" fMarginsY="8.2" iPointCountX="10" iPointCountY="17" />
+  <haveImageScalRatio value="true" printScalRatioX="100.0" printScalRatioY="100.0"/>
+ </HalotMachine>
+ <HalotMachine          value="CL89DA">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="136"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="DJ89"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="false"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="3"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.05"/>
+  <pixelY               value="0.05"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="3840"/>
+   <OriginalResolutionY value="2400"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1280"/>
+   <CompressResolutionY value="2400"/>
+  </IsCompress>
+   <mengToolParaAttributes needcheck="true" devName="89"  screenBrighMin="3600" screenBrighMax="5000" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL128L">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="325"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D128L"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>  
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.051"/>
+  <pixelY               value="0.051"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5448"/>
+   <OriginalResolutionY value="3064"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1816"/>
+   <CompressResolutionY value="3064"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="128"  screenBrighMin="3500" screenBrighMax="4500" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CL136">
+  <PrinterStyle         value="LCD"/>  
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="320"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="HALOT-MAX 2023"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="50"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>  
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.046"/>
+  <pixelY               value="0.046"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="6480"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress value="true">
+   <CompressResolutionX value="2160"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="133"  screenBrighMin="3400" screenBrighMax="3800" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="CT136PRO">
+  <PrinterStyle         value="LCD"/>  
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="324"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="CT-136 PRO"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="50"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>  
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.046"/>
+  <pixelY               value="0.046"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="6480"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress value="true">
+   <CompressResolutionX value="2160"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="133"  screenBrighMin="3400" screenBrighMax="3800" nMaskMax="40"/>
+ </HalotMachine>
+ <HalotMachine          value="D136">
+  <PrinterStyle         value="LCD"/>  
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="320"/>
+  <IsHorizontal         value="true"/>
+  <ExternalName         value="D136"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="5"/>
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>  
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="50"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>  
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.046"/>
+  <pixelY               value="0.046"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="6480"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress value="true">
+   <CompressResolutionX value="2160"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="136"  screenBrighMin="2000" screenBrighMax="6000" nMaskMax="60"/>
+ </HalotMachine>
+ <HalotMachine          value="CL89P">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="236"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="HALOT-SKY 2022"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0344"/>
+  <pixelY               value="0.0344"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5760"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1920"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="925"  screenBrighMin="4800" screenBrighMax="6000" nMaskMax="80"/>
+ </HalotMachine>
+ <HalotMachine          value="CL89DP">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="true"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="136"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="DJ89 PLUS"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>
+  <EleSpeed             value="5"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0344"/>
+  <pixelY               value="0.0344"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5760"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1920"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="925"  screenBrighMin="4800" screenBrighMax="6000" nMaskMax="80"/>
+ </HalotMachine>
+ <HalotMachine          value="CT005P">
+  <PrinterStyle         value="LCD"/>
+  <SendImageType        value="LCD"/>
+  <MirroredX            value="true"/>
+  <AutoFeedAndPreHeat   value="false"/>
+  <SerialName           value="ttyS2"/>
+  <SendSerialModelType  value="A"/>
+  <LevelHeight          value="286"/>
+  <IsHorizontal         value="false"/>
+  <ExternalName         value="CT-005 2023"/>
+  <RgbRange             value="BGRA"/>
+  <HelicalPitch         value="4"/>
+  <ExternalMotor        value="true"/>
+  <MinMotorSpeed        value="1"/>
+  <MaxMotorSpeed        value="8"/>  
+  <EleSpeed             value="3"/>
+  <MinRiseHeight        value="5"/>
+  <MaxRiseHeight        value="15"/>
+  <PrintHeight          value="8"/>
+  <MinInitExposure      value="10"/>
+  <MaxInitExposure      value="70"/>
+  <InitExposure         value="40"/>
+  <MinPrintExposure     value="10"/>
+  <MaxPrintExposure     value="100"/>
+  <PrintExposure        value="30"/>
+  <MinDelayLight        value="1"/>
+  <MaxDelayLight        value="10"/>
+  <DelayLight           value="4"/>
+  <MinExposureLayersNum value="1"/>
+  <MaxExposureLayersNum value="10"/>
+  <ExposureLayersNum    value="2"/>
+  <pixelX               value="0.0344"/>
+  <pixelY               value="0.0344"/>
+  <OriginalResolution>
+   <OriginalResolutionX value="5760"/>
+   <OriginalResolutionY value="3600"/>
+  </OriginalResolution>
+  <IsCompress           value="true">
+   <CompressResolutionX value="1920"/>
+   <CompressResolutionY value="3600"/>
+  </IsCompress>
+  <mengToolParaAttributes needcheck="true" devName="925"  screenBrighMin="4800" screenBrighMax="6000" nMaskMax="80"/>
+ </HalotMachine>
+</root>
